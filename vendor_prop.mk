@@ -93,9 +93,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.service.bdroid.sibs=false
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.bluetooth.a2dp_offload.disabled=false \
     vendor.bluetooth.soc=cherokee \
-    persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
