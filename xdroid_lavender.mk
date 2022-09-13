@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common xdroidsp stuff
 $(call inherit-product, vendor/xdroid/config/common.mk)
 XDROID_BOOT := 1080
-XDROID_MAINTAINER := xyzuan
+XDROID_MAINTAINER := etahamad
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
